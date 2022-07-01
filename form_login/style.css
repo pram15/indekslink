@@ -1,0 +1,103 @@
+body{
+	font-family: sans-serif;
+	
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+ 
+h1{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.tulisan_login{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
+ 
+.kotak_login{
+	width: 350px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 0 auto;
+	padding: 30px 20px;
+    border-radius: 10px;
+   
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+    border-radius: 5px;
+}
+ 
+.tombol_login{
+	background: #46de4b;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+    
+}
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.card0 {
+	background-color: #0caa5bb4;
+	transition: 1s;
+	border-style: ridge;
+	border-radius: 5px;
+  }
+  .card0:hover {
+	box-shadow: 5px 10px red;
+	color: black;
+  }
+  .card1 {
+	background-color: #0caa5bb4;
+	transition: 1s;
+  }
+  .card1:hover {
+	box-shadow: 5px 10px green;
+	color: black;
+  }
+  .card2 {
+	background-color: #0caa5bb4;
+	transition: 1s;
+  }
+  .card2:hover {
+	box-shadow: 5px 10px blue;
+	color: black;
+  }
