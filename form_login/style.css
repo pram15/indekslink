@@ -1,6 +1,5 @@
 body{
 	font-family: sans-serif;
-	
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -75,29 +74,79 @@ label{
     box-shadow: none;
 }
 
-.card0 {
-	background-color: #0caa5bb4;
+ .card0 {
+	background-color: #1bc437;
 	transition: 1s;
 	border-style: ridge;
 	border-radius: 5px;
+	border-width: 10px;
   }
   .card0:hover {
 	box-shadow: 5px 10px red;
 	color: black;
   }
   .card1 {
-	background-color: #0caa5bb4;
+	background-color: #1bc437;
 	transition: 1s;
+	border-style: ridge;
+	border-radius: 5px;
+	border-width: 10px;
   }
   .card1:hover {
 	box-shadow: 5px 10px green;
 	color: black;
   }
   .card2 {
-	background-color: #0caa5bb4;
+	background-color: #1bc437;
 	transition: 1s;
+	border-style: ridge;
+	border-radius: 5px;
+	border-width: 10px;
   }
   .card2:hover {
 	box-shadow: 5px 10px blue;
 	color: black;
+  }
+  .card3 {
+	background-color: #1bc437;
+	transition: 1s;
+	border-style: ridge;
+	border-radius: 5px;
+	border-width: 10px;
+  }
+  .card3:hover {
+	box-shadow: 5px 10px rgb(255, 0, 234);
+	color: black;
+  }
+  .card4 {
+	background-color: #1bc437;
+	transition: 1s;
+	border-style: ridge;
+	border-radius: 5px;
+	border-width: 10px;
+  }
+  .card4:hover {
+	box-shadow: 5px 10px rgb(0, 255, 34);
+	color: black;
+  }
+  .card5 {
+	background-color: #1bc437;
+	transition: 1s;
+	border-style: ridge;
+	border-radius: 5px;
+	border-width: 10px;
+  }
+  .card5:hover {
+	box-shadow: 5px 10px rgb(31, 150, 219);
+	color: black;
+  }
+
+  footer{
+	background-color: black;
+	color: #fff;
+	text-align: center;
+  }
+
+  .wrap-sosmed ul li{	
+	list-style: none;
   }
